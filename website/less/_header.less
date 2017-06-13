@@ -1,0 +1,137 @@
+@mianerWidth:1200px;
+@fontColor1:#f1f1f1;
+@bg_body:#ffffff;
+@fontColorMian:#c8132d;
+body{background-color:#fff;}
+.bodyer{
+	@fontColor2:#333;
+	@fontColor3:#c8132d;
+	
+	@boder-color1:#c8132d;
+	
+	@bg1:#fff;
+
+	@modesMargin:20px;
+	@mianPadding:30px 15px;
+	@mianPadding1:20px 18px;
+	@titleBorderBottom:1px solid #e5e5e5;
+	@banerHeight:520px;
+
+
+	.section{
+				margin-bottom: 20px !important;
+			}
+
+	.iconimg{
+		background-image:url("../image/icon.png");
+		background-repeat:no-repeat;
+	}
+	.header{
+		background-color:@bg1;
+		.title{
+			height:28px;
+			line-height:28px;
+			color:@fontColor1;
+			background-color:#423d3d;
+			font-size:12px;
+			p{
+				width:@mianerWidth;
+				margin:0 auto;
+				text-align:right;
+			}
+		}
+		.menus{
+			width:@mianerWidth;
+			margin:0 auto;
+			height:88px;
+			background-color:@bg1;
+			div{
+				height:100%;
+				width:100%;
+				span{
+					display:inline-block;
+				}
+				.logo{
+					display:inline-block;
+					width: 242px;
+					height: 57px;					
+					background-position: -4px -148px;
+					margin-top:14px;
+					float: left;
+    				margin-right: 100px;
+				}
+				.header_r{
+					height:100%;
+					.menu {
+						margin-top:28px;
+						display:inline-block;
+						position: relative;
+						height:60px;
+						.list-li {
+						    float: left;
+						    padding: 0 20px 9px;
+						    height:100%;
+						    position: relative;
+						    a {
+							    color: #333;
+							    font-weight: 700;
+							    font-size: 14px;
+							}
+							.menu_two{
+								display:none;
+								position: absolute;
+							    left: 0;
+							    top: 0;
+							    z-index: 100;
+							    margin-top: 56px;
+							    width: 132px;
+							    text-align: center;
+							    background-image:url("../image/bg_menu_two.png");
+							    background-repeat: repeat-y;
+						
+							    .titles{
+							    	height:4px;
+							    	background: @fontColor3;
+							    }
+							    li{
+							    	line-height:40px;
+							    	a{
+							    		color:#fff;
+							    	}
+							    }
+							    li:hover{
+							    	a{
+							    		color: @fontColor3;
+							    	}
+							    	background-color:#ffffff;
+							    }
+							}
+						}
+						.list-li:hover{
+							.menu_two{
+								display:block;
+							}
+						}
+						.list-li.cur{
+							a{
+								color:@fontColor3;
+							}
+						} 						
+						li.list-bar{
+							display: none;
+						    position: absolute;
+						    bottom: 0;
+						    left: 0;
+						    background:@fontColor3;
+						    width: 67px;
+						    height: 4px;
+						    -webkit-transition: all .25s ease;
+						    transition: all .25s ease; 						    
+						}
+						
+					}
+				}
+			}
+		}
+	}	
+}

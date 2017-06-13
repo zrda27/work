@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>团单按单位信息查询</title>
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/jquery.select-1.3.6.css">
+	<link rel="stylesheet" type="text/css" href="../css/policyPersonal.css">
+</head>
+<body>
+	<div class="bodyer">
+		<div class="header">
+			<div class="title"><p>全国统一服务热线：4008 695 666</p></div>
+			
+			<div class="menus">
+				<div>
+					<a class="logo iconimg"></a>
+					<span class="header_r">
+						<ul class="menu clearfix">
+	    					<li class="list-li"><a href="./index.html">首页</a></li>
+	    					<li class="list-li">
+	    						<a href="javascript:void(0);">关于仁和</a>
+	    						<ul class="menu_two">
+	    							<li class="titles"></li>
+	    							<li><a  href="./aboutCompany.html">公司简介</a></li>
+	    							<li><a  href="javascript:void(0);">团队管理</a></li>
+	    							<li><a  href="javascript:void(0);">股东构成</a></li>
+	    							<li><a href="./organizationChart.html">组织架构</a></li>
+	    						</ul>
+	    					</li>
+	    					<li class="list-li">
+	    						<a  href="javascript:void(0);" target="_blank">新闻中心</a>
+	    						<ul class="menu_two">
+	    							<li class="titles"></li>
+	    							<li><a href="./companyNews.html">公司新闻</a></li>
+	    							<li><a href="./mediaNews.html">媒体报道</a></li>
+	    						</ul>	
+	    					</li>
+	    					<li class="list-li"><a href="javascript:void(0);">产品中心</a></li>
+	    					<li class="list-li cur">
+	    						<a  href="javascript:void(0);">客户服务</a>
+	    						<ul class="menu_two">
+	    							<li class="titles"></li>
+	    							<li><a  href="./customerService.html" target="_blank">服务指南</a></li>
+	    							<li><a  href="javascript:void(0);">单证表格下载</a></li>
+	    							<li><a  href="./policyPersonal.html" target="_blank">保单查询</a></li>
+	    							<li><a  href="javascript:void(0);">业务员验证</a></li>
+	    							<li><a  href="javascript:void(0);">咨询与投诉</a></li>
+	    						</ul>
+	    					</li>
+	    					<li class="list-li">
+	    						<a  href="javascript:void(0);">公开信息披露</a>
+	    						<ul class="menu_two">
+	    							<li class="titles"></li>
+	    							<li><a href="./publicMsg.html" target="_blank">基本信息</a></li>
+	    							<li><a  href="javascript:void(0);">年度信息</a></li>
+	    							<li><a  href="javascript:void(0);">临时信息</a></li>
+	    							<li><a  href="javascript:void(0);">保险资金运用信息</a></li>
+	    							<li><a  href="javascript:void(0);">偿付能力信息</a></li>
+	    							<li><a  href="javascript:void(0);">互联网信息</a></li>
+	    						</ul>
+	    					</li>
+	    					<li class="list-li"><a  href="javascript:void(0);" target="_blank">加入我们</a></li>
+	    					<li class="list-bar" style="left: 0px;"></li>
+    					</ul>
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="banner"></div>
+		<div class="menu_url">
+			<div class="main">
+				<span class="iconimg house_icon"></span>
+				<a>首页</a>
+				<span class="iconimg right_arrows_icon"></span>
+				<a>客户服务</a>
+				<span class="iconimg right_arrows_icon"></span>
+				<a>保单查询</a>
+				<span class="iconimg right_arrows_icon"></span>
+				<a>团体保单查询</a>
+				<span class="iconimg right_arrows_icon"></span>
+				<a class="active">按单位信息查询</a>
+			</div>
+		</div>
+		
+		<div class="mainer">
+			<div class="details clearfix">
+				<div class="left_menu">
+					<div class="left_menus" id="leftMenus">
+						<div class="head_menu_t"><a class="icons_btn"><span class="iconimg openMenuIconT menuIcon"></span><span>服务指南</span></a></div>
+						<ul>
+							<li class="icon_padding"><a href="customerService.html" class="">投保服务流程</a></li>
+							<li class="icon_padding"><a class="">保全服务流程</a></li>
+							<li class="icon_padding"><a class="">理赔服务流程</a></li>
+						</ul>
+						<div class="head_menu_t"><a class="icons_btn no_icon">单证表格下载</a></div>
+						<div class="head_menu_t"><a class="icons_btn"><span class="iconimg openMenuIconT menuIcon"></span><span>保单查询</span></a></div>
+						<ul>
+							<li class="icon_padding"><a href="policyPersonal.html?type=policyPersonal">个人保单查询</a></li>
+							<li class="head_menu"><a class="icons_btn"><span class="iconimg openMenuIconD menuIcon"></span><span>团体保单查询</span></a></li>
+							<ul>
+								<li class="icon_padding active"><a href="policyGrpByCompany.html">按单位信息查询</a></li>
+								<li class="icon_padding"><a href="./policyGrpByPersonal.html">按个人信息查询</a></li>
+							</ul>
+						</ul>
+						<div class="head_menu_t"><a class="icons_btn no_icon">业务员验证</a></div>
+						<div class="head_menu_t"><a class="icons_btn no_icon">咨询与投诉</a></div>					
+					</div>
+				</div>
+				<div class="main">
+					<div class="main_th">按单位信息查询</div>
+					<table class="form_data">
+						<tr><th class="hint" colspan="2">提示：尊敬的用户，为确保您的信息安全，查询团险保单需要验证您的信息</th></tr>
+						<tr>
+							<th width="290">社会信用统一代码：</th>
+							<td width="320"><input type="text" id="orgCode"></td>
+							
+						</tr>
+						<tr>
+							<th>投保单位名称：</th>
+							<td>
+								<input type="text" class="ie_txt1" id="grpName">
+							</td>
+							
+						</tr>
+						<tr>
+							<th>保单号：</th>
+							<td><input type="text" class="ie_txt1" id="grpContNo" name="grpContNo"></td>
+							
+						</tr>
+						<tr>
+							<th>预留手机号：</th>
+							<td><input type="text" id="mobileNo" class="size5" name="mobileNo"><button type="button" class="size4" class="btn_col_blue yh" id="getVerifyCode">获取验证码</button></td>
+							
+						</tr>
+						<tr>
+							<th>验证码：</th>
+							<td><input type="text" id="smsCode" name="smsCode"></td>
+							
+						</tr>
+						<tr>
+							<th></th>
+							<td><button id="querySubmit" type="button" class="btn_submit">提交</button></td>
+							
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+			<div class="mainer">
+				<div class="f1">
+					<ul class="th clearfix">
+							<!-- <li><a  href="javascript:void(0);">关于我们</a></li>
+							<li><a  href="javascript:void(0);">信息披露</a></li>
+							<li><a  href="javascript:void(0);">服务电话</a></li>
+							<li><a  href="javascript:void(0);">帮助中心</a></li> -->
+						</ul>
+					<div class="tr clearfix">
+						<ul class="models">
+							<li><a  href="javascript:void(0);">集团介绍</a></li>
+							<li><a  href="javascript:void(0);">联系我们</a></li>
+							<li><a  href="javascript:void(0);">加入我们</a></li>
+						</ul>
+						<ul class="models">
+							<li><a  href="javascript:void(0);">公开信息披露</a></li>
+							<li><a  href="javascript:void(0);">资金运用信息披露</a></li>
+							<li><a  href="javascript:void(0);">偿付能力信息披露</a></li>
+						</ul>
+						<ul class="models">
+							<li><span  href="javascript:void(0);" class="font_bold">客服热线</span></li>
+							<li><span  href="javascript:void(0);" class="font_bold">4008 695 666</span></li>
+						</ul>
+						<ul class="models">
+							<li><a  href="javascript:void(0);">法律安全</a></li>
+							<li><a  href="javascript:void(0);">适用说明</a></li>
+							<li><a  href="javascript:void(0);">网站地图</a></li>
+						</ul>
+					</div>
+				</div>
+				<div  class="f2">
+					<span class="lft">友情链接：<a  href="http://www.miitbeian.gov.cn">招商局集团</a></span>
+					<span class="rgt">
+						<a  href="javascript:void(0);">隐私安全</a>
+						<a  href="javascript:void(0);">版权所有</a>
+						<a  href="javascript:void(0);" class="last_a">联系我们</a>
+						<span>©Copyright2016 深圳市招融投资控股有限公司   <a href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备15016483号</a></span>
+					</span>
+				</div>
+			</div>
+		</div>
+		<script data-main="../js/app/policyGrpByCompany.js" src="../js/require.js"></script>	
+</body>
+</html>
