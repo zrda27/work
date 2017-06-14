@@ -1,0 +1,35 @@
+ .dropdown {outline:none;display:block;height: 32px; float: left; width:100%;}
+.dropdown h4{cursor:default; text-indent:5px; margin:0; padding:0;}
+.dropdown {-moz-user-select:none;}
+.dropdown h4.over {}
+.dropdown div {display:inline-block;*display:inline;*zoom:1 /*fix bug*/}
+.dropdown ul{position:absolute;z-index: 999;display:none;margin:0;padding:0;float:left;clear:both;}
+.dropdown ul li{margin:0;padding:0;list-style:none;display:block;cursor:default; padding-left: 5px}
+.dropdown ul li.over{}
+.dropselectbox {display:inline;}
+
+/* write you style here */
+
+.dropselectbox {background:#fff; position:relative; height: 32px; float: left; }
+.dropdown h4{text-align:left;overflow:hidden;height:32px; font-size:12px; line-height: 32px; border:solid 1px #bfbfbf;background:url(../image/droparrow.gif) no-repeat right center; font-weight: normal; cursor:pointer}
+.dropdown h4.over{border-color:#acacac; background-image:url(../image/droparrowover.gif);}
+.dropdown h4.current{border-color:#3875d7;}
+.dropdown ul{border:1px solid #3875d7; background:#FFF;max-height: 200px;overflow: auto; border-top:none;top: -12px;}
+.dropdown ul li{background:#FFF;height:32px; font-size: 12px; line-height: 32px; border-top:none; color: #666; overflow:hidden}
+.dropdown ul li.over{background:#3875d7; color:#fff;}
+
+.dropdown .error{ float: none; margin-left:10px; }
+
+.works-title .r span {  line-height:20px; float:left; margin-left:5px}
+.works-title .dropdown { display:block;  height:20px;}
+.works-title .dropdown .dropselectbox { height:20px; }
+.works-title .dropdown h4 {  height:18px; line-height:18px}
+
+.post-search{ padding:0}
+.post-search span,.post-search input,.post-search label {  line-height:23px; display: inline-block; *display: inline;*zoom:1}
+.post-search .dropdown { display:inline-block;  height:23px; float: none; position:relative; top:9px; *display: inline;*zoom:1}
+.post-search .dropdown .dropselectbox { height:23px; }
+.post-search .dropdown h4 {  height:21px; line-height:18px}
+.post-tabs .post-search .dropdown li{ float:none;}
+
+.dropdown  .error .error-yellow.m-la{ margin-left:0}

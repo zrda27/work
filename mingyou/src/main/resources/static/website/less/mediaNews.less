@@ -1,0 +1,112 @@
+@import "_header";
+@import "_footer";
+@import "_banner";
+@import "_fenye";
+.bodyer{
+	@bg_redColor:#b02736;
+	.banner{
+		height:358px;
+		background-image:url(../image/banner1.jpg);
+		background-position:center;
+		background-repeat:no-repeat;
+	}
+	.menu_url{
+		.main{
+			.search{
+				float:right;
+				.border{
+					width:200px;
+					height:31px;
+					border-top:1px solid #dbdbdb;
+					border-bottom: 1px solid #dbdbdb;
+					margin-top: 10px;
+					position:relative;
+					.left_bracket,.right_bracket{
+						display:inline-block;
+						width: 15px;
+						height: 32px;
+					}
+					.left_bracket{
+						background-position:-1539px -52px;		
+						margin-left: -15px;
+					}
+					input{
+						display:inline-block;
+						width: 165px;
+					    vertical-align: top;
+					    height: 30px;
+					    border: none;
+					    padding: 0 10px;  
+					}
+					input:focus{
+						outline: aliceblue;
+					}
+					.right_bracket{
+						background-position:-1547px -6px;
+						margin-right: -15px;
+					}
+					.search{
+						background-position:-1580px -6px;
+						width: 14px;
+						height: 14px;
+						position:absolute;
+						top: 8px;
+  						left: -2px;
+					}
+					.reset{
+						background-position:-1577px -33px;
+						width: 19px;
+						height: 19px;
+						position:absolute;
+						top: 5px;
+  						right: -2px;
+					}
+				}
+			}
+		}
+	}
+	.mainer{
+		width:@mianerWidth;
+		margin:0 auto;
+		.titles{
+			height:50px;
+			line-height:50px;
+			border-bottom: 1px dashed #dbdbdb;
+			font-size:24px;
+			color:@bg_redColor;
+		}
+		ul{
+			li:nth-child(odd){
+				background-color:#f9f9f9;
+			}
+			li:hover .tits a{
+				color:@bg_redColor;
+			}
+			li{
+				margin:30px;
+				padding:30px;
+				.tits{
+					height:60px;
+					line-height:60px;
+					font-size:18px;
+					a{
+						color:#333333;
+					}									
+				}
+				.txt{
+					font-size:14px;
+					color:#666666;
+					line-height:22px;
+				}
+				.times{
+					line-height:36px;
+					font-size:14px;
+					color:#999;
+				}
+			}
+			li:hover{
+				color:@bg_redColor;
+			}
+		}
+	}
+}
